@@ -5,3 +5,12 @@ Meteor smart package for [url-utils](https://github.com/webholics/node-url-utils
 normalization utils.
 
 Adding this package to your [Meteor](http://www.meteor.com/) application adds `UrlUtils` object into the global scope.
+
+Server side only.
+
+Installation
+------------
+
+```
+mrt add url-utils
+```
