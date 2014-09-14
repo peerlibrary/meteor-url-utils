@@ -1,8 +1,0 @@
-{
-  "name": "url-utils",
-  "description": "URL normalization utils",
-  "homepage": "https://github.com/peerlibrary/meteor-url-utils",
-  "author": "The PeerLibrary Project",
-  "version": "0.1.0",
-  "git": "https://github.com/peerlibrary/meteor-url-utils.git"
-}

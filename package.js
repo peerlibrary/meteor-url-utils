@@ -1,12 +1,17 @@
 Package.describe({
-  summary: "URL normalization utils"
+  summary: "URL normalization utils",
+  version: '0.4.0-1',
+  name: 'peerlibrary:url-utils',
+  git: 'https://github.com/peerlibrary/meteor-url-utils.git'
 });
 
 Npm.depends({
-  'node-url-utils': "0.4.0"
+  'node-url-utils': '0.4.0'
 });
 
 Package.on_use(function (api) {
+  api.versionsFrom('METEOR@0.9.1.1');
+
   api.export('UrlUtils');
 
   api.add_files([
@@ -15,6 +20,7 @@ Package.on_use(function (api) {
 });
 
 Package.on_test(function (api) {
-  api.use(['url-utils', 'tinytest', 'test-helpers'], 'server');
+  api.use(['peerlibrary:url-utils', 'tinytest', 'test-helpers'], 'server');
+
   api.add_files('tests.js', 'server');
 });

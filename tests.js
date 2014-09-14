@@ -7,5 +7,5 @@ Tinytest.add('url-utils', function (test) {
   catch (e) {
   }
   test.isTrue(isDefined, "UrlUtils is not defined");
-  test.isTrue(Package['url-utils'].UrlUtils, "Package.url-utils.UrlUtils is not defined");
+  test.isTrue(Package['peerlibrary:url-utils'].UrlUtils, "Package.peerlibrary:url-utils.UrlUtils is not defined");
 });
