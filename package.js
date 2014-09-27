@@ -1,6 +1,6 @@
 Package.describe({
   summary: "URL normalization utils",
-  version: '0.4.0-1',
+  version: '0.4.0_2',
   name: 'peerlibrary:url-utils',
   git: 'https://github.com/peerlibrary/meteor-url-utils.git'
 });
@@ -10,7 +10,7 @@ Npm.depends({
 });
 
 Package.on_use(function (api) {
-  api.versionsFrom('METEOR@0.9.1.1');
+  api.versionsFrom('METEOR@0.9.3');
 
   api.export('UrlUtils');
 
