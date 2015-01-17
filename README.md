@@ -12,5 +12,5 @@ Installation
 ------------
 
 ```
-mrt add url-utils
+meteor add peerlibrary:url-utils
 ```
