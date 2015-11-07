@@ -1,7 +1,7 @@
 Package.describe({
   name: 'peerlibrary:url-utils',
   summary: "URL normalization utils",
-  version: '0.4.0_2',
+  version: '0.4.0_3',
   git: 'https://github.com/peerlibrary/meteor-url-utils.git'
 });
 
