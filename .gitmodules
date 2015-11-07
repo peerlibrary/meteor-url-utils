@@ -1,0 +1,6 @@
+[submodule "vendor"]
+	path = vendor
+	url = https://github.com/webholics/node-url-utils.git
+[submodule "node-url"]
+	path = node-url
+	url = https://github.com/defunctzombie/node-url.git

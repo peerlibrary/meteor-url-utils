@@ -6,7 +6,7 @@ normalization utils.
 
 Adding this package to your [Meteor](http://www.meteor.com/) application adds `UrlUtils` object into the global scope.
 
-Server side only.
+Both client and server side.
 
 Installation
 ------------
